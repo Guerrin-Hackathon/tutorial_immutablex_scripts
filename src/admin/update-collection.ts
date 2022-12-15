@@ -33,7 +33,8 @@ const component = '[IMX-UPDATE-COLLECTION]';
    * Edit your values here
    */
   const params: UpdateCollectionParams = {
-    name: 'ENTER_UPDATED_COLLECTION_NAME_HERE',
+    // name: 'ENTER_UPDATED_COLLECTION_NAME_HERE',
+    metadata_api_url: 'https://gateway.pinata.cloud/ipfs/QmdKghEHca48wcjjX3bKnauNWNSF6LHAYur3ARruNX7epy',
   };
 
   let collection;

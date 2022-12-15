@@ -35,13 +35,13 @@ const component = '[IMX-CREATE-COLLECTION]';
    * Edit your values here
    */
   const params: CreateCollectionParams = {
-    name: 'ENTER_COLLECTION_NAME',
-    // description: 'ENTER_COLLECTION_DESCRIPTION (OPTIONAL)',
+    name: 'GUERRIN REWARDS',
+    description: 'Aguante Guerrin',
     contract_address: collectionContractAddress,
     owner_public_key: ownerPublicKey,
-    // icon_url: '',
-    // metadata_api_url: '',
-    // collection_image_url: '',
+    icon_url: 'https://gateway.pinata.cloud/ipfs/QmcSeWvx3L7xdD6SJpytutmMALVva6bxk9mPo9B8ajq9ea',
+    metadata_api_url: 'https://gateway.pinata.cloud/ipfs/QmehUQpTaF2TFRLKmwSwEzmiiS2Rm6mZdTq1i4s8GMvceD',
+    collection_image_url: 'https://gateway.pinata.cloud/ipfs/QmcSeWvx3L7xdD6SJpytutmMALVva6bxk9mPo9B8ajq9ea',
     project_id: parseInt(projectId, 10),
   };
 
